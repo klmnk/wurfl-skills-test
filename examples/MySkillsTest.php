@@ -24,10 +24,10 @@ require_once __DIR__.'/MyWurfl.php';
 class MySkillsTest
 {
 
-    private static $file;
-    private static $deviceData;
-    private static $rows;
-    private static $fh;
+    private static $file;	// output file path
+    private static $deviceData;	// device data received from the server
+    private static $rows;	// temp array to constract HDML table from the data in TSV file
+    private static $fh;		// file handler to read/write dat
     /**
      * Initialize static instance
      */
