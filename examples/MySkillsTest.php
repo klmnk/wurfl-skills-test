@@ -32,7 +32,7 @@ class MySkillsTest
      * Initialize static instance
      */
     public static function init() {
-        self::$file = "/var/tmp/output.tsv";
+        self::$file = "../tmp/output.tsv";
         self::$deviceData = array();
             self::$rows = array();
     }
